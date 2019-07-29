@@ -105,12 +105,13 @@ public class ArrayBox implements  Box {
 
         //4.设计一个方法，看元素的个数
 
-        public int elementDataLength(){   //给用户查看真实数组的长度
+        public int elementDataLength() {   //给用户查看真实数组的长度
             return elementData.length;
         }
 
-        public int size(){           //给用户查看有效元素的个数
+        public int size() {           //给用户查看有效元素的个数
             return this.size;
+
         }
 
 
